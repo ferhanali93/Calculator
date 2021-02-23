@@ -5,7 +5,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
 public class CalculatorTest {
     @BeforeTest
     public void beforeTest(){
@@ -26,7 +25,6 @@ public class CalculatorTest {
 
         Assert.assertEquals(actualResult, expectedResult); // Test Passed
         System.out.println("Test Passed");
-
     }
 
     /**
@@ -47,6 +45,7 @@ public class CalculatorTest {
      * Write test cases for deduct()
      *
      * */
+
     @AfterTest
     public void afterTest(){
         System.out.println("Run some clean up activities");
